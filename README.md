@@ -1,4 +1,4 @@
-# 📊 Student Performance Analysis Project
+# 📊 Customer Behavior Analysis
 
 ## 📄 Overview
 Proyek ini menganalisis perilaku belanja pelanggan berdasarkan dataset transaksi retail. Tujuan utamanya adalah untuk memahami pola pembelian, segmentasi pelanggan, dan faktor-faktor yang memengaruhi keputusan belanja. Proses analisis mencakup:
@@ -61,7 +61,17 @@ Proyek ini dilakukan melalui beberapa tahapan analisis data end-to-end yang umum
 
 3. **📊 Running SQL Queries with PostgreSQL**  
    - Menyimpan data ke dalam database PostgreSQL  
-   - Menjalankan query analitis untuk menjawab pertanyaan bisnis
+   - Menjalankan query analitis untuk menjawab pertanyaan bisnis, seperti:
+        - Berapa total pendapatan yang dihasilkan oleh pelanggan laki-laki vs. pelanggan perempuan?
+        - Pelanggan mana yang menggunakan diskon tetapi tetap membelanjakan lebih dari rata-rata jumlah pembelian?
+        - Apa saja 5 produk teratas dengan rating ulasan rata-rata tertinggi?
+        - Bandingkan rata-rata jumlah pembelian antara pengiriman Standard dan Express.
+        - Apakah pelanggan yang berlangganan (subscribed) membelanjakan lebih banyak? Bandingkan rata-rata pengeluaran dan total pendapatan antara pelanggan yang berlangganan dan yang tidak.
+        - Manakah 5 produk yang memiliki persentase pembelian dengan diskon tertinggi?
+        - Segmentasikan pelanggan menjadi Baru (New), Kembali (Returning), dan Loyal berdasarkan total jumlah pembelian sebelumnya, lalu tampilkan jumlah masing-masing segmen.
+        - Apa saja 3 produk yang paling banyak dibeli dalam setiap kategori?
+        - Apakah pelanggan yang merupakan pembeli ulang (lebih dari 3 kali pembelian sebelumnya) juga cenderung berlangganan?
+        - Berapa kontribusi pendapatan dari setiap kelompok umur?
 
 4. **📈 Dashboard Creation Using Power BI**  
    - Mendesain dashboard interaktif untuk memvisualisasikan pola dan tren belanja pelanggan  

@@ -76,12 +76,12 @@ Dashboard interaktif ini dibuat menggunakan Power BI untuk memvisualisasikan pol
 
 **✅ KPI Utama**
 - Jumlah Customer: 3.9K pelanggan
-- Rata-rata Jumlah Pembelian: $59.76
+- Total Pendapatan: $233.081K
 - Rata-rata Rating Ulasan: 3.75
 
 **✅ Visualisasi Utama**
 - Persentase Pelanggan Berlangganan (Subscription Status)
-- Pendapatan per Kategori Produk (USD)
+- Total Pendapatan (USD)
 - Jumlah Penjualan Berdasarkan Kategori Produk
 - Penjualan Berdasarkan Kategori Usia Pelanggan
 
@@ -92,7 +92,33 @@ Pengguna dapat melakukan filter berdasarkan:
 - Kategori Produk
 
 **🖼️ Dashboard Screenshot**
-
 ![Customer Behavior Dashboard](dashboard.png)
+
+## 🔍 Key Insights
+
+**1. Mayoritas pelanggan bukan subscriber**
+- Hanya 27% pelanggan yang berlangganan (subscription status = Yes), sedangkan 73% tidak.
+- Pelanggan yang berlangganan cenderung memiliki jumlah pembelian lebih tinggi dibanding non-subscriber.
+- Jenis kelamin Pria cenderung berlangganan, sedangkan wanita tidak ada yang berlangganan
+
+**2. Kategori produk dengan pendapatan tertinggi adalah Clothing**
+- Kategori Clothing menghasilkan pendapatan lebih dari $100K, diikuti oleh Accessories dan Footwear.
+- Outerwear menjadi kategori dengan pendapatan terendah.
+
+**3. Segmentasi usia menunjukkan pelanggan usia kelompok dewasa (Adult & Middle-aged) paling dominan dalam pembelian**
+- Kelompok Middle-aged memiliki volume penjualan terbesar.
+- Pelanggan usia Young menunjukkan pembelian paling rendah.
+
+**4. Rata-rata review rating cukup positif: 3.75/5**
+- Rating menunjukkan tingkat kepuasan yang cukup baik, namun masih ada ruang untuk peningkatan kualitas produk/layanan.
+
+## Kesimpulan
+Berdasarkan insight di atas, strategi bisnis yang dapat dipertimbangkan antara lain:
+- Meningkatkan program subscription, karena pelanggan berlangganan cenderung lebih loyal dan belanja lebih banyak.
+- Fokus pada kategori produk Clothing & Accessories, karena menjadi penyumbang pendapatan terbesar.
+- Mengoptimalkan promo & diskon pada kategori produk dengan penjualan rendah untuk mendorong lebih banyak pembelian.
+
+
+
 
 

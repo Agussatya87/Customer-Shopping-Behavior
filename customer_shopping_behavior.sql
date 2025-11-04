@@ -31,7 +31,7 @@ from customer
 group by subscription_status
 order by total_pendapatan, "Rata - rata pembelian"
 
--- Q6. Produk mana saja (5 produk) yang memiliki persentase pembelian dengan diskon tertinggi?
+-- Q6. Manakah 5 produk yang memiliki persentase pembelian dengan diskon tertinggi?
 select item_purchased, ROUND(100*SUM(CASE WHEN discount_applied='Yes' THEN 1 ELSE 0 END)/COUNT(*),2) as discount_rate
 from customer
 group by item_purchased
@@ -64,7 +64,7 @@ select peringkat_item, category, item_purchased, total_orders
 from item_counts
 where peringkat_item <= 3
 
--- Q9. Apakah pelanggan yang merupakan pembeli ulang (lebih dari 3 pembelian sebelumnya) juga cenderung berlangganan?
+-- Q9. Apakah pelanggan yang merupakan pembeli ulang (lebih dari 3 kali pembelian sebelumnya) juga cenderung berlangganan?
 select subscription_status, COUNT(customer_id) as repeat_buyers
 from customer
 where previous_purchases > 3

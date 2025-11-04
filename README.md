@@ -62,7 +62,7 @@ Proyek ini dilakukan melalui beberapa tahapan analisis data end-to-end yang umum
 3. **📊 Running SQL Queries with PostgreSQL**  
    - Menyimpan data ke dalam database PostgreSQL  
    - Menjalankan query analitis untuk menjawab pertanyaan bisnis, seperti:
-        - Berapa total pendapatan yang dihasilkan oleh pelanggan laki-laki vs. pelanggan perempuan?
+        - Berapa total pendapatan yang dihasilkan oleh pelanggan laki-laki dan pelanggan perempuan?
         - Pelanggan mana yang menggunakan diskon tetapi tetap membelanjakan lebih dari rata-rata jumlah pembelian?
         - Apa saja 5 produk teratas dengan rating ulasan rata-rata tertinggi?
         - Bandingkan rata-rata jumlah pembelian antara pengiriman Standard dan Express.

@@ -88,7 +88,7 @@ Dashboard interaktif ini dibuat menggunakan Power BI untuk memvisualisasikan pol
 
 **✅ KPI Utama**
 - Jumlah Customer: 3.9K pelanggan
-- Total Pendapatan: $233.081K
+- Total Pendapatan: $233.1K
 - Rata-rata Rating Ulasan: 3.75
 
 **✅ Visualisasi Utama**

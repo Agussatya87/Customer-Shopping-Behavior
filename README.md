@@ -16,26 +16,28 @@ Dataset yang digunakan dalam proyek ini adalah Customer Shopping Trends yang dis
 - Tipe Data: Numerik, Kategorikal, dan Teks
 
 ### 🧾 Deskripsi Fitur
-| Fitur                     | Deskripsi                                                                 |
-|---------------------------|---------------------------------------------------------------------------|
-| **Customer ID**           | ID unik untuk setiap pelanggan                                            |
-| **Age**                   | Usia pelanggan                                                            |
-| **Gender**                | Jenis kelamin pelanggan *(Laki-laki/Perempuan)*                           |
-| **Item Purchased**        | Barang yang dibeli oleh pelanggan                                         |
-| **Category**              | Kategori barang yang dibeli                                               |
-| **Purchase Amount (USD)** | Jumlah total pembelian dalam USD                                          |
-| **Location**              | Lokasi tempat pembelian dilakukan                                         |
-| **Size**                  | Ukuran barang yang dibeli                                                 |
-| **Color**                 | Warna barang yang dibeli                                                  |
-| **Season**                | Musim saat pembelian dilakukan                                            |
-| **Review Rating**         | Rating yang diberikan pelanggan untuk barang yang dibeli                  |
-| **Subscription Status**   | Status langganan pelanggan *(Ya/Tidak)*                                   |
-| **Shipping Type**         | Jenis pengiriman yang dipilih pelanggan                                   |
-| **Discount Applied**      | Apakah diskon diterapkan pada pembelian *(Ya/Tidak)*                      |
-| **Promo Code Used**       | Apakah kode promo digunakan pada pembelian *(Ya/Tidak)*                   |
-| **Previous Purchases**    | Jumlah transaksi sebelumnya yang pernah dilakukan pelanggan               |
-| **Payment Method**        | Metode pembayaran yang paling sering digunakan oleh pelanggan             |
-| **Frequency of Purchases**| Frekuensi pelanggan melakukan pembelian *(contoh: Mingguan, Bulanan)*     |
+
+| Fitur                     | Deskripsi                                                                |
+|---------------------------|--------------------------------------------------------------------------------------|
+| **Customer ID**           | Nomor identitas unik untuk membedakan setiap pelanggan                               |
+| **Age**                   | Usia pelanggan dalam tahun                                                           |
+| **Gender**                | Jenis kelamin pelanggan *(Laki-laki atau Perempuan)*                                 |
+| **Item Purchased**        | Nama barang yang dibeli pelanggan                                                    |
+| **Category**              | Kategori dari barang yang dibeli *(contoh: Clothing, Accessories, Footwear)*         |
+| **Purchase Amount (USD)** | Total uang yang dikeluarkan pelanggan untuk pembelian tersebut (dalam Dollar USD)    |
+| **Location**              | Tempat atau kota di mana transaksi pembelian terjadi                                 |
+| **Size**                  | Ukuran barang yang dibeli *(contoh: S, M, L, XL)*                                    |
+| **Color**                 | Warna barang yang dibeli                                                             |
+| **Season**                | Musim saat transaksi dilakukan *(contoh: Summer, Winter, Autumn, Spring)*            |
+| **Review Rating**         | Penilaian atau rating dari pelanggan setelah membeli barang (skala 1–5)              |
+| **Subscription Status**   | Apakah pelanggan terdaftar dalam langganan toko *(Ya atau Tidak)*                    |
+| **Shipping Type**         | Jenis pengiriman yang dipilih pelanggan *(contoh: Standard, Express)*                |
+| **Discount Applied**      | Menunjukkan apakah pembelian mendapatkan potongan harga *(Ya atau Tidak)*            |
+| **Promo Code Used**       | Menunjukkan apakah pelanggan menggunakan kode promo *(Ya atau Tidak)*                |
+| **Previous Purchases**    | Jumlah pembelian yang telah dilakukan pelanggan sebelum transaksi ini                |
+| **Payment Method**        | Cara pelanggan membayar, seperti kartu kredit, debit, e-wallet, dll                  |
+| **Frequency of Purchases**| Seberapa sering pelanggan berbelanja *(contoh: Mingguan, Dua Minggu Sekali, Bulanan)*|
+
 
 ## 🛠️ Tools & Technologies
 Proyek ini menggunakan berbagai tools dan teknologi yang umum digunakan dalam analisis data end-to-end, mulai dari pengolahan data mentah hingga visualisasi hasil akhir.
